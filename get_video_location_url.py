@@ -1,7 +1,7 @@
 import requests
 
 class GetDaumTVPotUrl():
-    video_location_url = None;
+    video_location_url = None
 
     def __init__(self, clip_id):
         self.clip_id = clip_id
